@@ -1,0 +1,37 @@
+draw-process {
+    .meterText{
+        position: absolute;
+        bottom: 2.55em;
+        left: 103px;
+        width: 100%;
+        font-size: 2.5em;
+        z-index: 9;
+    }
+
+    .graphName{
+        position: absolute;
+        top: 0.1em;
+        left: 90px;
+        width: 100%;
+        font-size: 1.4em;
+        z-index: 9;
+    }
+
+    .graphArea{
+        height:14em;
+        position:relative;
+        box-sizing:border-box;
+    }
+
+    .card-meter{
+        border-radius: 2.5em;
+        width: 275px;
+    }
+
+    .speedtest {
+        background-image: url("/assets/imgs/gradient.png");
+		background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+	}
+}
