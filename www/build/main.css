@@ -25701,20 +25701,25 @@ ion-navbar.toolbar {
 
 draw-process .meterText {
   position: absolute;
-  bottom: 2.55em;
-  left: 103px;
+  bottom: 1.0em;
+  left: 2.22em;
   width: 100%;
-  font-size: 2.5em;
+  font-size: 3.5em;
   z-index: 9;
 }
 
 draw-process .graphName {
   position: absolute;
   top: 0.1em;
-  left: 90px;
+  left: 2.5em;
   width: 100%;
-  font-size: 1.4em;
+  font-size: 2.4em;
   z-index: 9;
+}
+
+draw-process canvas {
+  position: absolute;
+  top: 1.3em;
 }
 
 draw-process .graphArea {
@@ -25726,7 +25731,7 @@ draw-process .graphArea {
 
 draw-process .card-meter {
   border-radius: 2.5em;
-  width: 275px;
+  width: 20em;
 }
 
 draw-process .speedtest {

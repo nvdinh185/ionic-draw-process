@@ -52,7 +52,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"D:\DINHNV\MyData\LapTrinhDiDong\NODE_Baitap\node-web.bsc-kpi\draw-process\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-title>KPIs Tháng 5/2019</ion-title>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n  <!-- Hiển thị hiệu suất % hoàn thành -->\n\n  <draw-process [amount]="0.65" [process]="0.5"></draw-process>\n\n</ion-content>'/*ion-inline-end:"D:\DINHNV\MyData\LapTrinhDiDong\NODE_Baitap\node-web.bsc-kpi\draw-process\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"D:\MYDATA\LapTrinhDiDong\IONIC\ionic-draw-process\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-title>KPIs Tháng 5/2019</ion-title>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n  <!-- Hiển thị hiệu suất % hoàn thành -->\n\n  <draw-process [amount]="0.65" [process]="0.5"></draw-process>\n\n</ion-content>'/*ion-inline-end:"D:\MYDATA\LapTrinhDiDong\IONIC\ionic-draw-process\src\pages\home\home.html"*/
         })
     ], HomePage);
     return HomePage;
@@ -161,7 +161,7 @@ var MyApp = /** @class */ (function () {
         this.rootPage = __WEBPACK_IMPORTED_MODULE_1__pages_home_home__["a" /* HomePage */];
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\DINHNV\MyData\LapTrinhDiDong\NODE_Baitap\node-web.bsc-kpi\draw-process\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"D:\DINHNV\MyData\LapTrinhDiDong\NODE_Baitap\node-web.bsc-kpi\draw-process\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\MYDATA\LapTrinhDiDong\IONIC\ionic-draw-process\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"D:\MYDATA\LapTrinhDiDong\IONIC\ionic-draw-process\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], MyApp);
@@ -248,7 +248,7 @@ var DrawProcessComponent = /** @class */ (function () {
     ], DrawProcessComponent.prototype, "process", void 0);
     DrawProcessComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'draw-process',template:/*ion-inline-start:"D:\DINHNV\MyData\LapTrinhDiDong\NODE_Baitap\node-web.bsc-kpi\draw-process\src\components\draw-process\draw-process.html"*/'<ion-card class="card-meter">\n  <div class="graphArea speedtest">\n    <div class="graphName">Hiệu suất</div>\n    <canvas id="dlMeter"></canvas>\n    <div class="meterText" id="dlText"></div>\n  </div>\n</ion-card>'/*ion-inline-end:"D:\DINHNV\MyData\LapTrinhDiDong\NODE_Baitap\node-web.bsc-kpi\draw-process\src\components\draw-process\draw-process.html"*/
+            selector: 'draw-process',template:/*ion-inline-start:"D:\MYDATA\LapTrinhDiDong\IONIC\ionic-draw-process\src\components\draw-process\draw-process.html"*/'<ion-card class="card-meter">\n\n  <div class="graphArea speedtest">\n\n    <div class="graphName">Hiệu suất</div>\n\n    <canvas id="dlMeter"></canvas>\n\n    <div class="meterText" id="dlText"></div>\n\n  </div>\n\n</ion-card>'/*ion-inline-end:"D:\MYDATA\LapTrinhDiDong\IONIC\ionic-draw-process\src\components\draw-process\draw-process.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], DrawProcessComponent);
