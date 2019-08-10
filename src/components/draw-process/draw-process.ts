@@ -45,7 +45,7 @@ export class DrawProcessComponent {
     progressColor: string
   }) {
 
-    var myColors = (colors) ? colors : this.graphColor;
+    var myColors = colors ? colors : this.graphColor;
 
     var ctx = c.getContext("2d");
     var dp = window.devicePixelRatio || 1;

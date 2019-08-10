@@ -211,7 +211,7 @@ var DrawProcessComponent = /** @class */ (function () {
         this.I("dlText").textContent = (percent ? percent * 100 : 0) + "%";
     };
     DrawProcessComponent.prototype.drawMeter = function (c, amount, progress, colors) {
-        var myColors = (colors) ? colors : this.graphColor;
+        var myColors = colors ? colors : this.graphColor;
         var ctx = c.getContext("2d");
         var dp = window.devicePixelRatio || 1;
         var cw = c.clientWidth * dp, ch = c.clientHeight * dp;
